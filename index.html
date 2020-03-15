@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Second part</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+
+	<form action="controller.php" method="post">
+
+		<p>Введите ТОЛЬКО хост, пример - "example.com": 
+			<input type="text" name="host" style="width: 300px" />
+		</p>
+
+		<p>Выберите режим работы с сервером(в GET содержимое полей не отправляется): 
+			<p>
+				<input name="method" type="radio" value="get" id="getMethod" checked> <label for="getMethod">GET</label>
+			</p>
+		    <p>
+		    	<input name="method" type="radio" value="post" id="postMethod"> <label for="postMethod">POST</label>
+		    </p>
+		    <p>
+		    	<input name="method" type="radio" value="put" id="putMethod"> <label for="putMethod">PUT</label>
+		    </p>
+		</p>
+
+		<p>Введите название комментария: 
+			<input type="text" name="name" style="width: 300px" />
+		</p>
+
+		<p>Введите тескт комментария: 
+			<p>
+				<textarea rows="10" cols="45" name="text"></textarea>
+			</p>
+		</p>
+
+		<p>
+			<input type="submit" />
+		</p>
+
+	</form>
+
+</body>
+</html>

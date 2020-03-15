@@ -1,0 +1,24 @@
+{
+	"name": "",
+	"description": "Second part of testing task",
+	"licence": "not-secret",
+	"authors": [
+		{
+			"name": "Alex Ryzhkovich",
+			"email": "alex-r94@mail.ru"
+		}
+	],
+	"secure-http": false,
+	"minimum-stability": "dev",
+	"require": {
+		"phpunit/phpunit": "*"
+	},
+	/*
+    "autoload": {
+        "psr-4": {
+            "Services\\": "services",
+            "App\\": "app"
+        }
+    }
+    */
+}
